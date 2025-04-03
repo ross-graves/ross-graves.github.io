@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<!--THIS IS HOW YOU MAKE A COMMENT-->
+<head>
+    <title>My First Website</title>
+</head>
+<body>
+    <h1>Ross's first website</h1>
+    <hr>
+    <a href = "photos.html" target =_self title="This take you to page 2">
+        <big>Photos</big>
+
+    </a>
+    <br>
+    <a href = "gaming.html" target =_self title="Gaming">
+        <big>Gaming Clips</big>
+    </a>
+    <br>
+    <a href="https://www.google.com" target ="_blank" title="Takes You To Google">
+        Google Link
+    </a>
+    <br>
+    <link rel="icon" type="image/jpg" href="favicon.jpg"> 
+    <br>
+    <p2>Just testing audio concept :)</p2>
+    <br>
+    <audio controls autoplay muted><!--THIS IS HOW YOU ADD MUSIC/MP3 FILES-->
+        <source src="music.mp3">
+        Silly Music
+    </audio>
+    <br>
+
+
+    <!--<b> for BOLD, <i> for itallic, <small> for small, <big> for big, <sub> for subscript, 
+        <sup for superscipt, <ins> for inseted, <del> for deleted, and <mark> for highlight-->
+    <p>This is <b>normal</b> text</p>
+    <p>This is normal text</p>
+    <p>This is normal text</p>
+    <p>This is normal text</p>
+    <p>This is normal text</p>
+    <p>This is normal text</p>
+    <p>This is normal text</p>
+
+
+    <!--DIV AND SPAN PRACTICE-->
+
+    <h1><span style="background-color: tomato">This is a span title</span></h1>
+    <h1><div style="background-color: cyan;">This is a div title</div></h1>
+    
+    <p><span style="background-color: aquamarine;">This is a span sentence<span></p>
+    <p><div style="background-color: azure;">This is a span sentence</div></p>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: blueviolet;">Ex laboriosam accusantium, aliquid velit impedit placeat quasi saepe reiciendis omnis quos obcaecati. Veniam deserunt, ipsam fugiat voluptate dignissimos temporibus modi aperiam.</span></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: blanchedalmond;">Ex laboriosam accusantium, aliquid velit impedit placeat quasi saepe reiciendis omnis quos obcaecati. Veniam deserunt, ipsam fugiat voluptate dignissimos temporibus modi aperiam.</div></p>
+
+    
+    <!--LIST PRACTICE-->
+
+    <!--Unordered list-->
+    <h4>Groceries</h4>
+    <ul>
+        <li>Milk</li>
+        <li>eggs</li>
+        <li>coffee supplies</li>
+        <ul>
+            <li>coffee beans</li><!--Nested List-->
+            <li>creamer</li>
+            <li>sugar</li>
+        </ul>
+    </ul>
+
+    <!--ORDERED LIST-->
+    <h4>TODO</h4>
+    <ol>
+        <li>eat breakfast</li>
+        <l>go to class</l></li>
+        <li>walk</li>
+        <li>go for a bike ride</li>
+    </ol>
+
+    <!--DESCRIPTION LIST-->
+    <h4>Little Guys</h4>
+    <dl style="background-color: aliceblue; border:2px solid;">
+        <dt>Dragon</dt>
+        <dd>a mythical monster</dd>
+        <dt>frog</dt>
+        <dd>cute lil amphibian guys</dd>
+        <dt>Ground Hog</dt>
+        <dd>little fuckers</dd>
+    </dl>
+
+    <!--TABLE PRACTICE-->
+    <h3>STORE HOURS</h3>
+
+    <table border="5" style="background-color: beige;" >
+        <tr align="center" style="background-color: aliceblue;">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+
+        </tr>
+        <tr align="center" style="background-color: bisque;">
+            <td>closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+
+
+        </tr>
+        </table>
+    </table>
+
+    <br>
+    <br>
+    <a href="photos.html">
+    <button style="font-size: 25px; background-color: burlywood; color: blue; border-radius:25px ;">photos!</button>
+
+
+    </a>    
+
+
+</body>
+
+</html>
